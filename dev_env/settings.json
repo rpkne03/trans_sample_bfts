@@ -1,23 +1,23 @@
 {   
-    "python.pythonPath": "<path>",  //<path>はpc環境に応じて入力
-    "python.analysis.extraPaths": [  //Pylanceが探索するディレクトリを追加
+    "python.pythonPath": "<path>",
+    "python.analysis.extraPaths": [
         "<path>"
     ],
     
     "python.languageServer": "Pylance",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [              // flake8 の設定
+    "python.linting.flake8Args": [
         "--ignore = E501"
       ],
     "python.linting.enabled": true,
-    "python.formatting.provider": "autopep8",   // 自動整形に autopep8 を使う
-    "python.formatting.autopep8Args": [         // autopep8 の設定
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
     "--ignore= E501"
       ],
 
      "[python]": {
-    "editor.formatOnSave": true              // 保存時に自動整形を行う
+    "editor.formatOnSave": true
     },
     "jupyter.jupyterServerType": "local"
     
